@@ -20,6 +20,8 @@ This project uses the **Manga109** dataset.
     └── images/       (contains book folders)
 ```
 
+**Note on Custom Data:** The `/self_collected` directory contains a custom dataset compiled from various sources (photos, screenshots, etc.) specifically for visual evaluation. Users can write separate testing code to verify the effects of `color_scan_process` and `jpeg_process` directly on these samples.
+
 ## Run the Code
 
 We provide two main scripts for different classification tasks. Both scripts automatically handle:
