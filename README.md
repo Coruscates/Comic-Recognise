@@ -10,7 +10,7 @@ This project uses the **Manga109** dataset.
 
 ```
 .
-├── classify_char.py
+├── classify_characters.py
 ├── classify_styles.py
 ├── noise.py
 ├── color_scan_process.py
@@ -36,7 +36,7 @@ We provide two main scripts for different classification tasks. Both scripts aut
 To benchmark character recognition performance (Local features):
 
 ```
-python classify_char.py
+python classify_characters.py
 ```
 
 ### Style/Book Classification
